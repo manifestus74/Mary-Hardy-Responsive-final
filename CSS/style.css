@@ -209,7 +209,7 @@ overflow: hidden;
     background-color: #FFF8F3;
     margin: auto;
     text-align: center;
-    padding: 70px 0px;
+    padding: 70px 70px;
     border-radius: 10px;
     /*border: 1px solid red;*/
 }
@@ -222,7 +222,7 @@ overflow: hidden;
 }
 
 .container-content p {
-    max-width: 1050px;
+    max-width: 1000px;
     margin: auto;
     line-height: 30px;
     color: #474747;
@@ -269,8 +269,8 @@ overflow: hidden;
 .container-text h2 {
     font-size: 35px;
 }
-.container-text p {
-    width: 850px;
+.paragraph-section2 {
+    width: 80%;
     margin: auto;
     line-height: 30px;
     color: #474747;
@@ -470,7 +470,18 @@ textarea {
     }
   }
 
-@media screen and (max-width: 390px) {
+  @media screen and (max-width: 1200px) {
+    .header-text-plus-image {
+        flex-direction: column;
+        
+    }
+
+
+}
+
+/* Iphone 12 1170 x */
+
+@media screen and (max-width: 1170px) {
    
     .menu-nav {
         display: none;
@@ -541,28 +552,33 @@ textarea {
         margin: auto;
     }
 
-    .container-text p {
-        width: 70%;      
+    .container-text {
+        margin: auto;
+               
+    }
+
+    .paragraph-section2 {
+        margin: auto;
+        text-align: center;
+        padding: 10px 50px;
+        margin-bottom: 50px;
+        
     }
 
     .container-content-section2 {
-       
+       margin: auto;
     
     }
     .container-card {
-        margin: 0;
+        margin: auto;
         flex-direction: column;
           
     }
 
     .card-detail {
+        
         margin: auto;
-        padding: 45px 45px 45px 45px;
-    }
-
-    .card-detail p {
-        margin: 0;
-        padding: 0px 0px 0px 0px;
+        
     }
 
     .container-text-left {
@@ -598,7 +614,7 @@ textarea {
     }
 
     .footer-block-right {
-        width: 330px;
+        width: 100%;
         margin: auto;
     }
 
@@ -622,4 +638,4 @@ textarea {
         width: 80%;
         height: 300px;
     }
-}
+}/*************************************/
